@@ -1,0 +1,107 @@
+*{
+  margin: 0;
+  padding : 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+
+
+.NavBar{    
+  display: flex;
+  align-items: center;
+  position: fixed;
+  width: 70%;
+  height: 4rem;
+  bottom : 0;
+  padding: 0 0.25rem;
+  border-radius:  0.5rem 0.5rem 0 0;
+  background-color: #000000;
+  box-shadow: 0 -1px 12px rgba(160, 160, 160, 0.5);
+  text-align: center;
+  z-index: 99;
+  transition: .4s;
+}
+
+.NavBar a{
+  text-decoration: none;
+}
+
+.NavBar .Box1{
+  flex-basis: 20%;
+  padding :5px;
+}
+
+.NavBar .Box2{
+  flex-basis: 20%;
+  padding :5px;
+
+}
+
+.NavBar .Box3{
+  flex-basis: 20%;
+  padding :5px;
+
+}
+
+.NavBar .Box4{
+  flex-basis: 20%;
+  padding :5px;
+
+}
+
+.NavBar .Box5{
+  flex-basis: 20%;
+  padding :5px;
+}
+
+.Box1 img {
+  width: 31px;
+} 
+.Box2 img {
+  width: 31px;
+} 
+.Box3 img {
+  width: 60px;
+} 
+.Box4 img {
+  width: 30px;
+} 
+.Box5 img {
+  width: 30px;
+} 
+
+.Box1 label{
+  display: block;
+  font-size: 16px;
+  color : #fff;
+}
+
+.Box2 label{
+  display: block;
+  font-size: 16px;
+  color : #fff;
+}
+
+.Box4 label{
+  display: block;
+  font-size: 16px;
+  color : #fff;
+}
+
+.Box5 label{
+  display: block;
+  font-size: 16px;
+  color : #fff;
+}
+
+
+@media only screen and (max-width: 1000px) {
+  .NavBar{
+      width: 100%;
+  }
+}
